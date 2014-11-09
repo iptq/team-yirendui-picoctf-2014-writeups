@@ -3,7 +3,7 @@
 ## Problem
 
 You find an encrypted message written on the documents. Can you decrypt it?
-encrypted.txt
+[encrypted.txt](encrypted.txt)
 
 ## Hint
 
