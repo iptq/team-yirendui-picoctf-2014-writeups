@@ -2,7 +2,7 @@
 
 So this year I worked alone again. Here's my write-ups.
 
-I realize that some of the flags are randomly generated. In that case I will try to provide the source files attached to the writeup.
+I realize that some of the flags are randomly generated. In that case I will try to provide the source files attached to the writeup. If this is the case, the flag will be based on the attached files, so even if you have a different one, try again with the attached files.
 
 ## Something's Wrong? Missing?
 

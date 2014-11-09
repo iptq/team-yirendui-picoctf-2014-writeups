@@ -1,0 +1,73 @@
+
+<!-- saved from url=(0098)https://picoctf.com/api/autogen/serve/index.html?static=false&pid=28baa70afa1967ff63b201f687b7533e -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link rel="stylesheet" href="https://picoctf.com/problem-static/web/internet-inspection/gumby.css">
+		<title>Thryin Lab</title>		
+	<style type="text/css"></style></head>	
+	<body cz-shortcut-listen="true">
+		<style>
+		body {
+			-webkit-touch-callout: none;
+			-webkit-user-select: none;
+			-khtml-user-select: none;
+			-moz-user-select: none;
+			-ms-user-select: none;
+			user-select: none;
+		}
+		table {
+			filter:blur(5px);
+			-o-filter:blur(5px);
+			-ms-filter:blur(5px);
+			-moz-filter:blur(5px);
+			-webkit-filter:blur(5px);
+		}
+		.crop {
+            width: 200px;
+            height: 150px;
+            overflow: hidden;
+        }
+		</style>
+		<div id="checkers" style="position: absolute; top: 184.65625px; left: 142px; z-index: 100; width: 938px; height: 137px; overflow: hidden; background-image: url(https://picoctf.com/problem-static/web/internet-inspection/checkers.png);"></div>
+		<div class="row">
+			<div class="twelve columns" style="text-align: center; margin-bottom: 40px;">
+				<h1>Thryin Lab Paper Repository</h1>
+			</div>
+			<div style="text-align:center">
+				<h3>Content only available when physically at Thyrin Lab</h3>
+			</div>
+			<table class="rounded" id="content-table">
+				<thead>
+					<tr>
+						<th>Date</th>
+						<th>Author</th>
+						<th>Paper</th>
+						<th>Access Code</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr id="contents"><td>7/21/2014</td><td>Dr. Claudio Drake</td><td>Towards developing the next generation of robotic assistants for cardiovascular surgery</td><td>flag_e8f910e5f83893d2f7bc1229ca444cdc03be56d2</td></tr>
+				</tbody>
+			</table>
+		</div>
+		<script src="./Thryin Lab_files/jquery.min.js"></script>
+		<script src="./Thryin Lab_files/aes.js"></script>
+		<script language="javascript">
+			$(document).ready(function() {
+			    // This problem can be solved in much simpler ways than
+			    // looking at the code below. Browser developer tools
+			    // are your friend.
+		        var d=['\x32\x30\x31','\x38\x66\x39','\x61\x73\x63','\x64\x69\x6f','\x20\x44\x72','\x72\x6f\x62','\x3c\x74\x64','\x73\x73\x69','\x66\x37\x62','\x63\x20\x61','\x36\x64\x32','\x61\x72\x64','\x74\x64\x3e','\x20\x66\x6f','\x64\x3e','\x64\x3e\x3c','\x72\x20\x73','\x3c\x2f\x74','\x3e\x37\x2f','\x74\x64\x3e','\x75\x72\x67','\x75\x6c\x61','\x3c\x2f\x74','\x3c\x2f\x74','\x62\x65\x35','\x69\x6f\x76','\x64\x3e\x3c','\x61\x74\x69','\x3c\x74\x64','\x3e\x44\x72','\x63\x30\x33','\x20\x74\x68','\x6c\x61\x75','\x35\x66\x38','\x34\x3c\x2f','\x65\x72\x79','\x61\x6b\x65','\x33\x64\x32','\x20\x67\x65','\x34\x63\x64','\x65\x78\x74','\x61\x72\x64','\x54\x6f\x77','\x6f\x6e\x20','\x32\x39\x63','\x74\x64\x3e','\x65\x20\x6e','\x6c\x6f\x70','\x6e\x74\x73','\x73\x20\x64','\x69\x6e\x67','\x6f\x66\x20','\x73\x74\x61','\x6e\x65\x72','\x31\x30\x65','\x65\x76\x65','\x33\x38\x39','\x67\x5f\x65','\x6f\x74\x69','\x32\x31\x2f','\x72\x20\x63','\x61\x34\x34','\x2e\x20\x43','\x63\x31\x32','\x66\x6c\x61'];var m=d[28]+d[18]+d[59]+d[0]+d[34]+d[45]+d[6]+d[29]+d[62]+d[32]+d[3]+d[4]+d[36]+d[23]+d[15]+d[12]+d[42]+d[41]+d[49]+d[55]+d[47]+d[50]+d[31]+d[46]+d[40]+d[38]+d[53]+d[27]+d[43]+d[51]+d[5]+d[58]+d[9]+d[7]+d[52]+d[48]+d[13]+d[60]+d[11]+d[25]+d[2]+d[21]+d[16]+d[20]+d[35]+d[17]+d[26]+d[19]+d[64]+d[57]+d[1]+d[54]+d[33]+d[56]+d[37]+d[8]+d[63]+d[44]+d[61]+d[39]+d[30]+d[24]+d[10]+d[22]+d[14];
+		        $('#contents').html(m);
+		        checker();
+			});
+			function checker() {
+		        $('#checkers').css('top', $('#content-table').position().top);
+		        $('#checkers').css('left', $('#content-table').position().left);
+		        $('#checkers').width($('#content-table').width());
+		        $('#checkers').height($('#content-table').height());
+		        $('#checkers').css('overflow', 'hidden');
+			}
+			$( window ).resize(checker);
+		</script>
+	
+</body></html>
