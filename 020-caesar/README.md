@@ -38,7 +38,7 @@ If you know me, you'll know that I love writing Python programs to solve problem
     qebpbzobqmxppmeoxpbfpaxqcpvzwstagfaisnytsyqizkimyxc
     rfcqcapcrnyqqnfpyqcgqbyrdqwaxtubhgbjtozutzrjaljnzyd
     sgdrdbqdsozrrogqzrdhrczserxbyuvcihckupavuaskbmkoaze
-    **thesecretpassphraseisdatfsyczvwdjidlvqbwvbtlcnlpbaf**
+    thesecretpassphraseisdatfsyczvwdjidlvqbwvbtlcnlpbaf <<
     uiftfdsfuqbttqisbtfjtebugtzdawxekjemwrcxwcumdomqcbg
 
 ## Flag
